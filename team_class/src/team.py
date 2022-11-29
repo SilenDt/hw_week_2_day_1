@@ -19,12 +19,14 @@ class Team:
 #def has_player(self, player_name):
     #return self.players.count(player) >0
 # (there are multiple ways of solving these problems)
-#or
+#orx
 #return player in self.players
 
     def play_game(self, win):
         if win:
             self.points += 3
+
+
 
     
 
