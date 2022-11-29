@@ -15,11 +15,17 @@ class Team:
         else:
             return False
 
-    def play_game(self, win_or_lose):
-        if win_or_lose == "win":
-            self.points += 3
-        
-            
+# above ^ can also be solved with:
+#def has_player(self, player_name):
+    #return self.players.count(player) >0
+# (there are multiple ways of solving these problems)
+#or
+#return player in self.players
 
-            
+    def play_game(self, win):
+        if win:
+            self.points += 3
+
+    
+
 
